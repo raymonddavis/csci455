@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for api/controllers/ItemController.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../index.html">all files</a> / <a href="index.html">api/controllers/</a> ItemController.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">2.38% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>1/42</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/38</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/8</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">3.03% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>1/33</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1×</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
+ * ItemController
+ *
+ * @description :: Server-side logic for managing items
+ * @help        :: See http://sailsjs.org/#!/documentation/concepts/Controllers
+ */
+&nbsp;
+module.exports = {
+    findOne: <span class="fstat-no" title="function not covered" >function(req, res, next) {</span>
+<span class="cstat-no" title="statement not covered" >        var item = req.param('item');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        var query = 'SELECT item.barcode,' +</span>
+            ' item.id,' +
+            ' item.creator,' +
+            ' CONCAT(user.firstName, \' \', user.lastName) as creatorName,' +
+            ' item.boughtPrice,' +
+            ' item.currentPrice,' +
+            ' item.description,' +
+            ' itemtype.name as itemType,' +
+            ' item.type as itemTypeId,' +
+            ' room.id as roomId,' +
+            ' room.number as roomNumber,' +
+            ' building.id as buildingId,' +
+            ' building.name as buildingName,' +
+            ' department.id as departmentId,' +
+            ' department.name as departmentName' +
+            ' FROM item' +
+            ' JOIN user on user.id = item.creator' +
+            ' JOIN itemtype on itemtype.id = item.type' +
+            ' JOIN room on room.id = item.room' +
+            ' JOIN building on building.id = room.building' +
+            ' JOIN department on department.id = building.department' +
+            ' WHERE item.id = ' + item;
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        Item.query(query, <span class="fstat-no" title="function not covered" >function(err, items) {</span></span>
+<span class="cstat-no" title="statement not covered" >            if (err || !items || items.length == 0) <span class="cstat-no" title="statement not covered" >return next(sails.config.additionals.ITEMS_SEARCH_NOT_FOUND);</span></span>
+<span class="cstat-no" title="statement not covered" >            return res.ok(items);</span>
+        });
+    },
+&nbsp;
+    find: <span class="fstat-no" title="function not covered" >function(req, res, next) {</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        var query = 'SELECT item.barcode,' +</span>
+            ' item.id,' +
+            ' item.creator,' +
+            ' CONCAT(user.firstName, \' \', user.lastName) as creatorName,' +
+            ' item.boughtPrice,' +
+            ' item.currentPrice,' +
+            ' item.description,' +
+            ' itemtype.name as itemType,' +
+            ' item.type as itemTypeId' +
+            ' FROM item' +
+            ' JOIN user on user.id = item.creator' +
+            ' JOIN itemtype on itemtype.id = item.type';
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        Item.query(query, <span class="fstat-no" title="function not covered" >function(err, items) {</span></span>
+<span class="cstat-no" title="statement not covered" >            if (err || !items || items.length == 0) <span class="cstat-no" title="statement not covered" >return next(sails.config.additionals.ITEMS_SEARCH_NOT_FOUND);</span></span>
+<span class="cstat-no" title="statement not covered" >            return res.ok(items);</span>
+        });
+    },
+&nbsp;
+    search: <span class="fstat-no" title="function not covered" >function(req, res, next) {</span>
+<span class="cstat-no" title="statement not covered" >        var departmentId = req.param('did');</span>
+<span class="cstat-no" title="statement not covered" >        var buildingId = req.param('bid');</span>
+<span class="cstat-no" title="statement not covered" >        var roomId = req.param('rid');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        if (!req.user.departments) <span class="cstat-no" title="statement not covered" >return next(sails.config.additionals.MISSING_PREMISSION_DEPARTMENTS);</span></span>
+<span class="cstat-no" title="statement not covered" >        if (departmentId &amp;&amp; req.user.departments.indexOf(parseInt(departmentId)) == -1) <span class="cstat-no" title="statement not covered" >return next(sails.config.additionals.MISSING_PREMISSION_DEPARTMENT);</span></span>
+<span class="cstat-no" title="statement not covered" >        if (buildingId &amp;&amp; req.user.buildings.indexOf(parseInt(buildingId)) == -1) <span class="cstat-no" title="statement not covered" >return next(sails.config.additionals.MISSING_PREMISSION_BUILDING);</span></span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        var query = 'SELECT item.*, itemtype.name AS typeName, itemtype.description AS typeDescription ' +</span>
+            'FROM item ' +
+            'INNER JOIN ' +
+            '(room INNER JOIN ' +
+            '(building INNER JOIN department ON department.id = building.department) ' +
+            'ON building.id = room.building) ' +
+            'ON item.room = room.id ' +
+            'INNER JOIN itemtype ON itemtype.id = item.type ';
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        if (!departmentId) {</span>
+<span class="cstat-no" title="statement not covered" >            query = query + ' WHERE (department.id IN (' + req.user.departments + '))';</span>
+        }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        if (departmentId) {</span>
+<span class="cstat-no" title="statement not covered" >            query = query + ' WHERE (department.id = ' + departmentId;</span>
+<span class="cstat-no" title="statement not covered" >            if (buildingId) <span class="cstat-no" title="statement not covered" >query = query + ' AND building.id = ' + buildingId;</span></span>
+            else <span class="cstat-no" title="statement not covered" >query = query + ' AND building.id IN (' + req.user.buildings + ')';</span>
+<span class="cstat-no" title="statement not covered" >            if (roomId) <span class="cstat-no" title="statement not covered" >query = query + ' AND room.id = ' + roomId;</span></span>
+<span class="cstat-no" title="statement not covered" >            query = query + ')';</span>
+        }
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        Item.query(query, <span class="fstat-no" title="function not covered" >function(err, items) {</span></span>
+<span class="cstat-no" title="statement not covered" >            if (err || !items || items.length == 0) <span class="cstat-no" title="statement not covered" >return next(sails.config.additionals.ITEMS_SEARCH_NOT_FOUND);</span></span>
+<span class="cstat-no" title="statement not covered" >            return res.ok(items);</span>
+        });
+    },
+&nbsp;
+    barcode: <span class="fstat-no" title="function not covered" >function(req, res, next) {</span>
+<span class="cstat-no" title="statement not covered" >        var barcode = req.param('barcode');</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        var query = 'SELECT item.barcode,' +</span>
+            ' item.id,' +
+            ' item.creator,' +
+            ' CONCAT(user.firstName, \' \', user.lastName) as creatorName,' +
+            ' item.boughtPrice,' +
+            ' item.currentPrice,' +
+            ' item.description,' +
+            ' itemtype.name as itemType,' +
+            ' item.type as itemTypeId,' +
+            ' room.id as roomId,' +
+            ' room.number as roomNumber,' +
+            ' building.id as buildingId,' +
+            ' building.name as buildingName,' +
+            ' department.id as departmentId,' +
+            ' department.name as departmentName' +
+            ' FROM item' +
+            ' JOIN user on user.id = item.creator' +
+            ' JOIN itemtype on itemtype.id = item.type' +
+            ' JOIN room on room.id = item.room' +
+            ' JOIN building on building.id = room.building' +
+            ' JOIN department on department.id = building.department' +
+            ' WHERE item.barcode = ?';
+&nbsp;
+<span class="cstat-no" title="statement not covered" >        Item.query(query, [barcode], <span class="fstat-no" title="function not covered" >function(err, items) {</span></span>
+<span class="cstat-no" title="statement not covered" >            if (err || !items || items.length == 0) <span class="cstat-no" title="statement not covered" >return next(sails.config.additionals.ITEMS_SEARCH_NOT_FOUND);</span></span>
+<span class="cstat-no" title="statement not covered" >            return res.ok(items);</span>
+        });
+    }
+};
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="http://istanbul-js.org/" target="_blank">istanbul</a> at Tue Apr 25 2017 12:25:23 GMT-0500 (CDT)
+</div>
+</div>
+<script src="../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../sorter.js"></script>
+</body>
+</html>

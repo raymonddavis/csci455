@@ -1,0 +1,1845 @@
+{
+	"id": "bf83e458-a883-b04d-ed84-63406739becc",
+	"name": "UND-IMS-API",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"owner": "741329",
+			"lastUpdatedBy": "741329",
+			"lastRevision": 683880954,
+			"id": "fb25d8b4-2cb2-eee6-62df-d80a74e1317a",
+			"name": "Building",
+			"description": "",
+			"order": [
+				"99df93b3-2c65-0a71-0877-83911fd17a68",
+				"06d6d4e3-8b8d-d711-eb63-cf62db472f21",
+				"b9d851c3-42d4-5dd9-e55a-95bce3cdf8ee",
+				"cb7e4835-ee11-ef86-0f2d-1b1369e917af",
+				"1f74dcf9-6910-601c-a451-c37042b2bf7a",
+				"7998944d-c591-16b6-1128-e61557800d44",
+				"302c36b0-d65a-0170-7187-a3e2b2d7b1c4",
+				"e19f46c4-fb97-47f8-c309-048fc1699793"
+			]
+		},
+		{
+			"owner": "741329",
+			"lastUpdatedBy": "741329",
+			"lastRevision": 623832282,
+			"id": "a075c4ce-cdac-ec93-ca87-602a91304f2f",
+			"name": "Department",
+			"description": "",
+			"order": [
+				"e9e0e3cb-8087-9f10-ee12-13dc91a435ab",
+				"6d51b987-9ea5-8df5-4b0c-620e6fc2c56a",
+				"2d0fda8b-830c-fd4e-ec4f-ceb0fb497f96",
+				"e480c65d-b5c2-fb39-8acb-8b1de6b27b62",
+				"82f8dce9-1ba6-06c9-999a-e8a5ae4145e6",
+				"7dff130e-bd3c-2585-32fb-ea32d6d24348",
+				"987655d5-9a02-cc8c-302b-38fa939f8aab"
+			]
+		},
+		{
+			"owner": "741329",
+			"lastUpdatedBy": "741329",
+			"lastRevision": 734416895,
+			"id": "6edaab4c-9b71-ba1a-95bc-3cfb085b87b3",
+			"name": "Item",
+			"description": "",
+			"order": [
+				"e302a55f-6c17-d87b-dd04-c93918f51200",
+				"e8bcadf2-a6cc-c37a-dd75-bda52cde4a6d",
+				"37aab4d9-ca36-7e43-1799-1d5dfe5e368c",
+				"60dbde13-6565-3973-0226-683d7a2060a2",
+				"8f33adda-eec6-7b99-d470-e9907f8cd76c",
+				"052a71a9-9484-2504-e90d-d7613f02aa9b",
+				"e4b60443-429f-9c48-7372-ca02ddf89938"
+			]
+		},
+		{
+			"owner": "741329",
+			"lastUpdatedBy": "741329",
+			"lastRevision": 624461295,
+			"id": "961bca33-528c-ba20-7c82-04b0f95c26ea",
+			"name": "ItemType",
+			"description": "",
+			"order": [
+				"778e2003-1e2a-ead9-24df-d5e5536d0312",
+				"19b20d64-ee8e-0993-6723-84d4c5988044",
+				"4c60d36b-c432-074c-5ee3-ba947998c08c",
+				"bd7d44e8-7b7e-9e2f-cb7f-a8248286af9e",
+				"8bb9abf7-f9c6-8508-f9e0-1bb642f689bd",
+				"98a3f1b0-1309-1bc4-1e96-9f33beadfedc"
+			]
+		},
+		{
+			"id": "1739ffaf-e2d9-b006-d505-d4529a9c6707",
+			"name": "Log",
+			"description": "",
+			"order": [
+				"52d87cc1-5e66-95b1-4999-1ebbf7f01d0c",
+				"a908f303-cb2d-fc3c-b51b-3e207d8905f2",
+				"8f51bac0-e9ce-a5de-e27e-74ca1ba4f346",
+				"fb58b994-faee-2ca0-1b31-7eb0be3acd8b",
+				"96a4ab58-d912-3222-15bc-30ec47a9eb4f"
+			],
+			"owner": "741329"
+		},
+		{
+			"owner": "741329",
+			"lastUpdatedBy": "741329",
+			"lastRevision": 707350330,
+			"id": "11c7f4c5-ee76-ddc8-264b-38bcdda23703",
+			"name": "Permission",
+			"description": "",
+			"order": [
+				"b6fef028-b5e9-43b2-0df4-ff663c0bc9de",
+				"0443b37a-ba22-9f3f-39c0-d335a5f78d47",
+				"8111576d-3811-ddc9-437b-af47c93efc39",
+				"77f98bd9-a923-cfe9-3bae-4a8a4b2db31b",
+				"e1931ace-08c6-844d-2f52-b2f6e4ce8503"
+			]
+		},
+		{
+			"owner": "741329",
+			"lastUpdatedBy": "741329",
+			"lastRevision": 683888583,
+			"id": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"name": "Room",
+			"description": "",
+			"order": [
+				"d38c3214-7378-b3c0-1aef-6d4b8b981bae",
+				"bf05b8d0-2548-8986-21e5-f9e821ba354b",
+				"5dabda53-8e72-b01c-9671-e14e734b580c",
+				"24cd8e46-02a6-0a4f-3cb1-00e93b543773",
+				"912ceee1-3077-6edf-fa54-1de98b41f8f5",
+				"d2dbda55-bd41-e02f-785c-149f5c316160",
+				"f3812452-6007-d637-64ef-452739effd27",
+				"3c8c55f0-9063-e9ed-99f3-872f5d759b5d",
+				"abb1cee2-a94d-d356-b006-060af1de8e0f"
+			]
+		},
+		{
+			"owner": "741329",
+			"lastUpdatedBy": "741329",
+			"lastRevision": 704298587,
+			"id": "edcf2299-6171-3ff9-29bb-95f09c8d3329",
+			"name": "Users",
+			"description": "",
+			"order": [
+				"aff8a8c7-0efe-85f0-efa1-470ca47a660f",
+				"3eac8394-5048-3b09-ce36-822d1f30cf7c",
+				"00b54dec-9a26-fc02-0300-16518cdbbb77",
+				"faf3dd41-7b34-16af-2390-34ec3cb324ee",
+				"d1ecf831-dd02-174e-13ad-41b9f43ce4c8",
+				"13096480-3482-97dc-8044-bfae92d99d8d",
+				"5e1be4f7-e1fe-9fdc-e659-6e5935acc13a",
+				"033efd32-9011-5dc3-7e29-4db3dbc27017"
+			]
+		}
+	],
+	"timestamp": 0,
+	"owner": "741329",
+	"public": false,
+	"requests": [
+		{
+			"folder": "edcf2299-6171-3ff9-29bb-95f09c8d3329",
+			"id": "00b54dec-9a26-fc02-0300-16518cdbbb77",
+			"name": "Get User",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "email",
+					"value": "test@test.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "test1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get a user based of the user id. The following is required:\n  - userId\nExample:\n  - {{server}}/v1/users/{{userId}}\nThis will return a user object of the found user.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/users/1",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "edcf2299-6171-3ff9-29bb-95f09c8d3329",
+			"id": "033efd32-9011-5dc3-7e29-4db3dbc27017",
+			"name": "DELETE User",
+			"dataMode": "params",
+			"data": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "This will delete the user from the database where userId is found. Example:\n  - {{server}}/v1/users/{{userId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "{{server}}/v1/users/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "11c7f4c5-ee76-ddc8-264b-38bcdda23703",
+			"id": "0443b37a-ba22-9f3f-39c0-d335a5f78d47",
+			"name": "Get Permission",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "Get Permission based on id.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/permissions/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "6edaab4c-9b71-ba1a-95bc-3cfb085b87b3",
+			"id": "052a71a9-9484-2504-e90d-d7613f02aa9b",
+			"name": "Update Item",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "barcode",
+					"value": "09876",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will update a Item with new changes. Example:\n  - barcode = updatedBarcode\n  - description = updatedDescription\nSupportes one or maney changes at the same time.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "{{server}}/v1/items/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "fb25d8b4-2cb2-eee6-62df-d80a74e1317a",
+			"id": "06d6d4e3-8b8d-d711-eb63-cf62db472f21",
+			"name": "Get Building",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the Building of the buildingId given. Example:\n  - {{server}/v1/buildings/{{buildingId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/buildings/1",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "edcf2299-6171-3ff9-29bb-95f09c8d3329",
+			"id": "13096480-3482-97dc-8044-bfae92d99d8d",
+			"name": "Remove User Premission",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "permission",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "Remove the Premission from the User.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "{{server}}/v1/users/removePermission",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "961bca33-528c-ba20-7c82-04b0f95c26ea",
+			"id": "19b20d64-ee8e-0993-6723-84d4c5988044",
+			"name": "Get ItemType",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the ItemType of the ItemTypeId given. Example:\n  - {{server}/v1/itemtypes/{{ItemTypeId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/Itemtypes/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "fb25d8b4-2cb2-eee6-62df-d80a74e1317a",
+			"id": "1f74dcf9-6910-601c-a451-c37042b2bf7a",
+			"name": "Get Buildings with Rooms",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get all the Buildings in the database with rooms. Example:\n  - {{server}/v1/buildings/rooms",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/buildings/rooms",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"id": "24cd8e46-02a6-0a4f-3cb1-00e93b543773",
+			"name": "Get Room with Items with ItemType",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "This will get the room of the roomId given with all the items and itemtypeId in that room. Example:\n  - {{server}}/v1/rooms/{{roomId}}/item/{{itemtypeId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/rooms/1/item/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "a075c4ce-cdac-ec93-ca87-602a91304f2f",
+			"id": "2d0fda8b-830c-fd4e-ec4f-ceb0fb497f96",
+			"name": "Get Department with Buildings",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "This will get the Department of the departmentId given with all the buildings. Example:\n  - {{server}/v1/departments/{{departmentId}}/building",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/departments/1/building",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "fb25d8b4-2cb2-eee6-62df-d80a74e1317a",
+			"id": "302c36b0-d65a-0170-7187-a3e2b2d7b1c4",
+			"name": "Update Building",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "update",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will update a Building with new changes. Example:\n  - name = updatedName\n  - departmentId = updatedDepartmentId\nSupportes one or maney changes at the same time.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "{{server}}/v1/buildings/1",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "6edaab4c-9b71-ba1a-95bc-3cfb085b87b3",
+			"id": "37aab4d9-ca36-7e43-1799-1d5dfe5e368c",
+			"name": "Get Items by Barcode",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "This will get all the Items in the database by barcode.\n\nitems/barcode/:barcode",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/items/barcode/12345",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"id": "3c8c55f0-9063-e9ed-99f3-872f5d759b5d",
+			"name": "Update Room",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "number",
+					"value": "999",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will update a room with new changes. Example:\n  - number = updatedNumber\n  - building = updatedBuilding\nSupportes one or maney changes at the same time.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "{{server}}/v1/rooms/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "edcf2299-6171-3ff9-29bb-95f09c8d3329",
+			"id": "3eac8394-5048-3b09-ce36-822d1f30cf7c",
+			"name": "Login",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "email",
+					"value": "test@test.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will log a user into the api. The following are required:\n  - email\n  - password\nThis will return a JSON Web Token that is needed for future calls to the API, without a valid JSON Web Token you do not have access to the API.",
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{server}}/v1/auth/signin",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "961bca33-528c-ba20-7c82-04b0f95c26ea",
+			"id": "4c60d36b-c432-074c-5ee3-ba947998c08c",
+			"name": "Get ItemType with Items",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the ItemType of the ItemTypeId given with items. Example:\n  - {{server}/v1/itemtypes/{{ItemTypeId}}/items",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/Itemtypes/1/items",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"id": "52d87cc1-5e66-95b1-4999-1ebbf7f01d0c",
+			"headers": "Authorization: JWT {{token}}\n",
+			"url": "{{server}}/v1/logs",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492804398968,
+			"name": "Get Logs",
+			"description": "This will get all the Logs in the database.",
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc",
+			"responses": []
+		},
+		{
+			"folder": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"id": "5dabda53-8e72-b01c-9671-e14e734b580c",
+			"name": "Get Room with Items",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the room of the roomId given with all the items in that room. Example:\n  - {{server}}/v1/rooms/{{roomId}}/item",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/rooms/1/item",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "edcf2299-6171-3ff9-29bb-95f09c8d3329",
+			"id": "5e1be4f7-e1fe-9fdc-e659-6e5935acc13a",
+			"name": "Update User",
+			"dataMode": "urlencoded",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will update a user with new changes. Example:\n  - password = updatedPassword\n  - email = updatedEmail\nSupportes one or maney changes at the same time.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "{{server}}/v1/users/1",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"id": "60dbde13-6565-3973-0226-683d7a2060a2",
+			"headers": "Authorization: JWT {{token}}\n",
+			"url": "{{server}}/v1/items",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1492804359822,
+			"name": "Get Items",
+			"description": "This will get all the Items in the database.",
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc",
+			"responses": []
+		},
+		{
+			"folder": "a075c4ce-cdac-ec93-ca87-602a91304f2f",
+			"id": "6d51b987-9ea5-8df5-4b0c-620e6fc2c56a",
+			"name": "Get Department",
+			"dataMode": "params",
+			"data": null,
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the Department of the departmentId given. Example:\n  - {{server}/v1/departments/{{departmentId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/departments/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "961bca33-528c-ba20-7c82-04b0f95c26ea",
+			"id": "778e2003-1e2a-ead9-24df-d5e5536d0312",
+			"name": "Create ItemType",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will create an ItemType. The following is required:\n  - name -> text\n  - creator -> userId\nOptional:\n  - description -> text\nThis will return a ItemType object of the created ItemType.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{server}}/v1/Itemtypes",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "11c7f4c5-ee76-ddc8-264b-38bcdda23703",
+			"id": "77f98bd9-a923-cfe9-3bae-4a8a4b2db31b",
+			"name": "Update Permission",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "departments",
+					"value": "{ \"edit\" : true, \"create\" :  true, \"delete\": true, \"view\" : true }",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "Updates the Permission\nExample:\nUsers: {create,edit,delete}\n\nModelName: {JSON OF CREATE,EDIT,DELETE}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "{{server}}/v1/permissions/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "fb25d8b4-2cb2-eee6-62df-d80a74e1317a",
+			"id": "7998944d-c591-16b6-1128-e61557800d44",
+			"name": "Get Buildings by Department Id",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get all the Buildings in the database in the department. Example:\n  - {{server}/v1/buildings/department/:departmentId",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/buildings/department/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "a075c4ce-cdac-ec93-ca87-602a91304f2f",
+			"id": "7dff130e-bd3c-2585-32fb-ea32d6d24348",
+			"name": "Update Department",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "updateTest",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will update a Department with new changes. Example:\n  - name = updatedName\nSupportes one or maney changes at the same time.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "{{server}}/v1/departments/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "11c7f4c5-ee76-ddc8-264b-38bcdda23703",
+			"id": "8111576d-3811-ddc9-437b-af47c93efc39",
+			"name": "Get Permissions",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "Get all permissions.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/permissions",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "a075c4ce-cdac-ec93-ca87-602a91304f2f",
+			"id": "82f8dce9-1ba6-06c9-999a-e8a5ae4145e6",
+			"name": "Get Departments with Buildings",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get all the Departments in the database with the buildings. Example:\n  - {{server}/v1/departments/buildings",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/departments/buildings",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "961bca33-528c-ba20-7c82-04b0f95c26ea",
+			"id": "8bb9abf7-f9c6-8508-f9e0-1bb642f689bd",
+			"name": "Update ItemType",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "update",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will update a ItemType with new changes. Example:\n  - name = updatedName\n  - description = updatedDescription\nSupportes one or maney changes at the same time.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "{{server}}/v1/Itemtypes/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "6edaab4c-9b71-ba1a-95bc-3cfb085b87b3",
+			"id": "8f33adda-eec6-7b99-d470-e9907f8cd76c",
+			"name": "Search Items",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the Item given. Example:\n  - {{server}/v1/items/search/{{Department}}/{{BuildingId}}/{{RoomId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/items/search/1/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"id": "8f51bac0-e9ce-a5de-e27e-74ca1ba4f346",
+			"headers": "Authorization: JWT {{token}}\n",
+			"url": "{{server}}/v1/logs/24",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Get Logs By Id",
+			"description": "This will get the Logs by id in the database.",
+			"descriptionFormat": "html",
+			"time": 1493135791712,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1739ffaf-e2d9-b006-d505-d4529a9c6707"
+		},
+		{
+			"folder": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"id": "912ceee1-3077-6edf-fa54-1de98b41f8f5",
+			"name": "Get Rooms",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "number",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will return all room in the databse.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/rooms",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"id": "96a4ab58-d912-3222-15bc-30ec47a9eb4f",
+			"headers": "Authorization: JWT {{token}}\n",
+			"url": "{{server}}/v1/logs/users/2",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Get Logs by Model By Id",
+			"description": "This will get all the Logs by Model by Id in the database.",
+			"descriptionFormat": "html",
+			"time": 1493138460377,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1739ffaf-e2d9-b006-d505-d4529a9c6707"
+		},
+		{
+			"folder": "a075c4ce-cdac-ec93-ca87-602a91304f2f",
+			"id": "987655d5-9a02-cc8c-302b-38fa939f8aab",
+			"name": "Delete Department",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will delete the Department from the database where departmentId is found. Example:\n  - {{server}}/v1/departments/{{departmentId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "{{server}}/v1/departments/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "961bca33-528c-ba20-7c82-04b0f95c26ea",
+			"id": "98a3f1b0-1309-1bc4-1e96-9f33beadfedc",
+			"name": "Delete ItemType",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will delete the ItemType from the database where ItemTypeId is found. Example:\n  - {{server}}/v1/itemtypes/{{ItemTypeId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "{{server}}/v1/Itemtypes/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "fb25d8b4-2cb2-eee6-62df-d80a74e1317a",
+			"id": "99df93b3-2c65-0a71-0877-83911fd17a68",
+			"name": "Create Building",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will create a Building. The following is required:\n  - name -> text\n  - creator -> userId\n  - department -> departmentId\nThis will return a Building object of the created Building.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{server}}/v1/buildings",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"id": "a908f303-cb2d-fc3c-b51b-3e207d8905f2",
+			"headers": "Authorization: JWT {{token}}\n",
+			"url": "{{server}}/v1/logs/1",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "Delete Log By Id",
+			"description": "This will delete a log by id from the database.",
+			"descriptionFormat": "html",
+			"time": 1493135725720,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1739ffaf-e2d9-b006-d505-d4529a9c6707"
+		},
+		{
+			"folder": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"id": "abb1cee2-a94d-d356-b006-060af1de8e0f",
+			"name": "Delete Room",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will delete the room from the database where roomId is found. Example:\n  - {{server}}/v1/rooms/{{roomId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "{{server}}/v1/rooms/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "edcf2299-6171-3ff9-29bb-95f09c8d3329",
+			"id": "aff8a8c7-0efe-85f0-efa1-470ca47a660f",
+			"name": "Create User",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "email",
+					"value": "test@test.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "firstName",
+					"value": "firstname",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lastName",
+					"value": "lastname",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will create a user. The following are required:\n  - username -> string\n  - password -> string\n  - email -> string\n  - firstName -> string\n  - lastName -> string\nOptional:\n  - admin -> boolean -> defaultsTo: false\nThis will return a user object of the create user.",
+			"headers": "",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{server}}/v1/auth/signup",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "11c7f4c5-ee76-ddc8-264b-38bcdda23703",
+			"id": "b6fef028-b5e9-43b2-0df4-ff663c0bc9de",
+			"name": "Create Permission",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "name",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "Create a Permission\nRequired:\n-creator\n-department\n-name",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{server}}/v1/permissions",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "fb25d8b4-2cb2-eee6-62df-d80a74e1317a",
+			"id": "b9d851c3-42d4-5dd9-e55a-95bce3cdf8ee",
+			"name": "Get Building with Rooms",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the Building of the buildingId given with rooms. Example:\n  - {{server}/v1/buildings/{{buildingId}}/room",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/buildings/1/room",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "961bca33-528c-ba20-7c82-04b0f95c26ea",
+			"id": "bd7d44e8-7b7e-9e2f-cb7f-a8248286af9e",
+			"name": "Get ItemTypes",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get all the ItemTypes in the database. Example:\n  - {{server}/v1/itemtypes",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/Itemtypes",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"id": "bf05b8d0-2548-8986-21e5-f9e821ba354b",
+			"name": "Get Room",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "number",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the room of the roomId given. Example:\n  - {{server}/v1/rooms/{{roomId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/rooms/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "fb25d8b4-2cb2-eee6-62df-d80a74e1317a",
+			"id": "cb7e4835-ee11-ef86-0f2d-1b1369e917af",
+			"name": "Get Buildings",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get all the Buildings in the database. Example:\n  - {{server}/v1/buildings",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/buildings",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "edcf2299-6171-3ff9-29bb-95f09c8d3329",
+			"id": "d1ecf831-dd02-174e-13ad-41b9f43ce4c8",
+			"name": "Add User Premission",
+			"dataMode": "urlencoded",
+			"data": [
+				{
+					"key": "permission",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "Adds the Premission to the User.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "PUT",
+			"pathVariables": {},
+			"url": "{{server}}/v1/users/addPermission",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"id": "d2dbda55-bd41-e02f-785c-149f5c316160",
+			"name": "Get Rooms with Items",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will return all the rooms in the database with the items in each room. Example:\n  - {{server}}/v1/rooms/items",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/rooms/items",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"id": "d38c3214-7378-b3c0-1aef-6d4b8b981bae",
+			"name": "Create Room",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "number",
+					"value": "123",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "building",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "This will create a new room. The following are required:\n  - number -> text\n  - creator -> userId\n  - building -> buildingId\nThis will return a room object of the created room.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{server}}/v1/rooms",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "11c7f4c5-ee76-ddc8-264b-38bcdda23703",
+			"id": "e1931ace-08c6-844d-2f52-b2f6e4ce8503",
+			"name": "Delete Permission",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "Delete the Permission",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "{{server}}/v1/permissions/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "fb25d8b4-2cb2-eee6-62df-d80a74e1317a",
+			"id": "e19f46c4-fb97-47f8-c309-048fc1699793",
+			"name": "Delete Building",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will delete the Building from the database where buildingId is found. Example:\n  - {{server}}/v1/buildings/{{buildingId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "{{server}}/v1/buildings/1",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "6edaab4c-9b71-ba1a-95bc-3cfb085b87b3",
+			"id": "e302a55f-6c17-d87b-dd04-c93918f51200",
+			"name": "Create Item",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "barcode",
+					"value": "12345",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will create an Item. The following is required:\n  - name -> text\n  - creator -> userId\n  - type -> itemtypeId\n  - barcode -> text\nOptional:\n  - boughtPrice -> float -> defaultTo: 0.00\n  - currentPrice -> float -> defaultTo: 0.00\n  - description -> text\nThis will return a Item object of the created Item.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{server}}/v1/items",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "a075c4ce-cdac-ec93-ca87-602a91304f2f",
+			"id": "e480c65d-b5c2-fb39-8acb-8b1de6b27b62",
+			"name": "Get Departments",
+			"dataMode": "params",
+			"data": null,
+			"rawModeData": null,
+			"descriptionFormat": "html",
+			"description": "This will get all the Departments in the database. Example:\n  - {{server}/v1/departments",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/departments",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "6edaab4c-9b71-ba1a-95bc-3cfb085b87b3",
+			"id": "e4b60443-429f-9c48-7372-ca02ddf89938",
+			"name": "Delete Item",
+			"dataMode": "params",
+			"data": [],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will delete the Item from the database where ItemId is found. Example:\n  - {{server}}/v1/items/{{ItemId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "DELETE",
+			"pathVariables": {},
+			"url": "{{server}}/v1/items/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "6edaab4c-9b71-ba1a-95bc-3cfb085b87b3",
+			"id": "e8bcadf2-a6cc-c37a-dd75-bda52cde4a6d",
+			"name": "Get Item",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the Item of the ItemId given. Example:\n  - {{server}/v1/items/{{ItemId}}",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/items/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "a075c4ce-cdac-ec93-ca87-602a91304f2f",
+			"id": "e9e0e3cb-8087-9f10-ee12-13dc91a435ab",
+			"name": "Create Department",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "name",
+					"value": "test",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will create an Department. The following is required:\n  - name -> text\n  - creator -> userId\nThis will return a Department object of the created Department.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "POST",
+			"pathVariables": {},
+			"url": "{{server}}/v1/departments",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "9290395e-e76f-dba3-5a7a-fea9d286673d",
+			"id": "f3812452-6007-d637-64ef-452739effd27",
+			"name": "Get Rooms by Building Id",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "department",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This will get the rooms in the database by buildingId. Example:\n  - {{server}}/v1/rooms/building/:buildingId",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/rooms/building/1",
+			"preRequestScript": null,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"folder": "edcf2299-6171-3ff9-29bb-95f09c8d3329",
+			"id": "faf3dd41-7b34-16af-2390-34ec3cb324ee",
+			"name": "Get Users",
+			"dataMode": "params",
+			"data": [
+				{
+					"key": "email",
+					"value": "test@test.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "test12",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "test1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"rawModeData": null,
+			"descriptionFormat": null,
+			"description": "This is get all users on the database.",
+			"headers": "Authorization: JWT {{token}}\n",
+			"method": "GET",
+			"pathVariables": {},
+			"url": "{{server}}/v1/users",
+			"preRequestScript": "",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": "{}",
+			"responses": [],
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc"
+		},
+		{
+			"id": "fb58b994-faee-2ca0-1b31-7eb0be3acd8b",
+			"headers": "Authorization: JWT {{token}}\n",
+			"url": "{{server}}/v1/logs/users",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [
+				{
+					"key": "type",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "room",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "creator",
+					"value": "1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493138470317,
+			"name": "Get Logs by Model",
+			"description": "This will get all the Logs by Model in the database.",
+			"collectionId": "bf83e458-a883-b04d-ed84-63406739becc",
+			"responses": []
+		}
+	]
+}
