@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { Meta, Title } from '@angular/platform-browser'
 
 @Component({
   selector: 'locations',
@@ -8,4 +9,13 @@ import { Component } from '@angular/core'
     <!-- <router-outlet></router-outlet> -->
   `,
 })
-export class LocationsComponent { }
+export class LocationsComponent {
+  constructor(meta: Meta, title: Title) {
+    title.setTitle('Location Page')
+    meta.addTags([
+      {
+        name: 'description', content: 'This is where you can add, edit, and delete Locations from the database.'
+      }
+    ])
+  }
+}
