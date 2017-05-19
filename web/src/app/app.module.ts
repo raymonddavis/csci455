@@ -42,7 +42,7 @@ const appRoutes: Routes = [
   { path: '', component: ItemsComponent, canActivate: [AuthGaurd] },
   { path: 'itemtypes', component: ItemTypesComponent, canActivate: [AuthGaurd] },
   { path: 'login', component: LoginComponent },
-  { path: 'locations', loadChildren: './locations/location.module#LocationModule', canActivate: [AuthGaurd] },
+  { path: 'locations', component: LocationsComponent, canActivate: [AuthGaurd] },
   { path: 'users', component: UsersComponent, canActivate: [PermGaurd] },
   { path: 'itemlocations', component: ItemLocationsComponent, canActivate: [AuthGaurd] }
 ]
